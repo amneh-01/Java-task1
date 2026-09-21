@@ -7,11 +7,11 @@ let Text= "";
 
 if( gender === "male" )
 {
-   Text = "welcom  Mr. " + name;
+Text = "welcom  Mr. " + name;
 }
 else if( gender ==="female")
 {
-   Text = "welcom  Ms. " + name;
+Text = "welcom  Ms. " + name;
 }
 else
 {
@@ -22,18 +22,18 @@ document.write(Text);
 
 if(age >= 16)
 {
-    document.write("Continue with the order<br>");
+    document.write(" <br>Continue with the order<br>");
 }
 else
 {
-     document.write("You are not eligible to place an order<br>");
+    document.write("You are not eligible to place an order<br>");
 }
 
 
- let order= prompt( "enter  your order : Burger , Shawarma , Zinger " );
- let valid=false;
- 
-if(meal =="Burger" || meal =="Shawarma" || meal=="Zinger")
+let order= prompt( "enter  your order : Burger , Shawarma , Zinger " );
+let valid =false;
+
+if(order ==="Burger" || order ==="Shawarma" || order==="Zinger")
 {
     alert("Your order is being prepared")
     valid=true;
